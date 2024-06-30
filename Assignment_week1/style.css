@@ -1,0 +1,70 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #3a3a3a;
+    color: white;
+}
+header img {
+    height: 50px;
+}
+header h1 {
+    margin: 0;
+    font-size: 1.5em;
+}
+header a {
+    color: white;
+    text-decoration: none;
+    padding: 10px 20px;
+    background-color: #333;
+    border-radius: 5px;
+}
+.background {
+    position: relative;
+    text-align: center;
+    color: white;
+    padding: 50px 20px;
+}
+.background::before {
+    content: "";
+    background: url('https://static.vecteezy.com/system/resources/previews/036/393/676/large_2x/ai-generated-electronic-dance-music-edm-background-electro-sound-poster-techno-dance-banner-abstract-dj-music-cover-free-photo.jpeg') no-repeat center center/cover;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0.5;
+    z-index: -1;
+}
+main {
+    padding: 20px;
+}
+section {
+    margin: 20px 0;
+}
+section img {
+    width: 100%;
+    height: auto;
+    max-width: 800px; /* Maximum width for the images */
+    display: block;
+    margin: 0 auto; /* Center the images */
+}
+.video-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px 0;
+}
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #333;
+    color: white;
+    font-size: 0.8em;
+}
